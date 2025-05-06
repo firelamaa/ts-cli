@@ -8,7 +8,7 @@ Typescript cli repo sample to run scripts
 
 # Setup
 
-```
+```shell
 npm i
 npm run start
 ```
