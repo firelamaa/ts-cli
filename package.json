@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "start": "ts-node -r dotenv/config src/main.ts",
-    "dev": "node --experimental-strip-types src/main.ts",
+    "start:node:experimental": "node --experimental-strip-types src/main.ts",
     "check": "concurrently 'npm:check:*'",
     "check:type": "tsc --noemit",
     "check:lint": "eslint . --fix",
