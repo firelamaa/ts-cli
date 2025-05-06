@@ -1,6 +1,6 @@
 # IDEs and editors
 # JetBrains IDEs
-/.idea
+.idea
 # VS Code
 .vscode
 
