@@ -9,7 +9,11 @@
     "check": "concurrently 'npm:check:*'",
     "check:type": "tsc --noemit",
     "check:lint": "eslint . --fix",
-    "check:prettier": "prettier --write \"src/**/*.ts\"",
+    "check:prettier": "prettier --check \"src/**/*.ts\"",
+    "fix": "concurrently 'npm:check:*'",
+    "fix:type": "tsc --noemit",
+    "fix:lint": "eslint .",
+    "fix:prettier": "prettier --write \"src/**/*.ts\"",
     "prepare": "husky install"
   },
   "keywords": [],
