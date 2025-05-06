@@ -1,3 +1,9 @@
+# IDEs and editors
+# JetBrains IDEs
+/.idea
+# VS Code
+.vscode
+
 # Logs
 logs
 *.log
