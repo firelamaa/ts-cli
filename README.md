@@ -1,6 +1,6 @@
 # ts-cli
 
-Typescript cli repo sample to run scripts
+Typescript cli repo sample to run scripts.
 
 # Dependencies
 
